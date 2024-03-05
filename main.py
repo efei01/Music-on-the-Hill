@@ -6,8 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-CLIENT_ID = "9e229727620e4805a8e04c935345c565"
-CLIENT_SECRET = "a3ec80498c3b4b76b5ac7772d71cd515"
+CLIENT_ID = "<client_id>"
+CLIENT_SECRET = "<client_secret>"
 client_credentials_manager = SpotifyClientCredentials(client_id = CLIENT_ID, client_secret = CLIENT_SECRET)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
